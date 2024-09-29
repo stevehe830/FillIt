@@ -34,7 +34,6 @@ class _FillPaneState extends State<FillPane> {
         children: <Widget>[
           FloodFillImage(
             imageProvider: AssetImage(widget.image),
-            height: 300,
             fillColor: _fillColor,
             avoidColor: [Colors.transparent, Colors.black],
             tolerance: 10,
