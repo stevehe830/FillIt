@@ -65,7 +65,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   child: custom_widgets.FillPane(
                     width: double.infinity,
                     height: double.infinity,
-                    image: 'assets/turtle.jpg',
+                    image: 'assets/images/turtle.jpg',
                   ),
                 ),
               ),
